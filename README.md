@@ -26,3 +26,7 @@ contact.html
 
 - Instead of images, we have three text boxes and a submit button.
 - Should be in a form tag.
+
+Issues
+
+- Tried to make it so the navbar items would collapse into a button when hitting a breakpoint, but the button wouldn't open the options (probably because of no javascript?) and would move the options to the left rather then end justified.
