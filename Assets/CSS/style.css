@@ -1,0 +1,12 @@
+*
+{
+    /* border: 1px dashed red; */
+}
+
+#nameIcon
+{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
