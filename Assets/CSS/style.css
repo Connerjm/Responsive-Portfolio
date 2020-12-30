@@ -8,5 +8,27 @@
     color: white;
     font-family: 'Roboto Slab', serif;
     background-color: cadetblue;
-    border-radius: 5%;
+    border-radius: 3%;
+}
+
+section
+{
+    width: 600px;
+    margin-top: 48px;
+    margin-left: 16px;
+    padding: 16px;
+}
+
+h1
+{
+    color: cadetblue;
+    font-family: 'Roboto Slab', serif;
+}
+
+img
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0px 20px 0px 0px;
 }
