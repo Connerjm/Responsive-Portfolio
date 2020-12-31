@@ -3,20 +3,30 @@
     border: 1px dashed red;
 } */
 
+body
+{
+    background-image: url("../Images/background.png");
+}
+
 #nameIcon
 {
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     font-family: 'Roboto Slab', serif;
     background-color: cadetblue;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 section
 {
     width: 600px;
+    padding: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 1%;
     margin-top: 48px;
     margin-left: 16px;
-    padding: 16px;
+    background-color: white;
 }
 
 h1
