@@ -25,12 +25,26 @@ body
 section
 {
     margin-top: 48px;
-    margin-left: 16px;
     border: 1px solid cadetblue;
     border-radius: 1%;
     width: 600px;
     padding: 16px;
     background-color: white;
+}
+
+/* Altering the container class from Bootstrap to give me the responsiveness without centering the section. */
+.container
+{
+    margin-right: 0;
+    margin-left: 16px;
+}
+
+/* Adding a clear fix class to make sure the section doesn't get too small for the image. */
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Formatting my section header. */
