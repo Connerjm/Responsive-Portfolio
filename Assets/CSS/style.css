@@ -12,33 +12,47 @@ body
 {
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    background-color: cadetblue;
     border-radius: 5%;
+    background-color: cadetblue;
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
 
 section
 {
-    width: 600px;
-    padding: 16px;
-    border: 1px solid cadetblue;
-    border-radius: 1%;
     margin-top: 48px;
     margin-left: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 1%;
+    width: 600px;
+    padding: 16px;
     background-color: white;
 }
 
 h1
 {
-    color: cadetblue;
     font-family: 'Roboto Slab', serif;
+    color: cadetblue;
 }
 
 img
 {
-    height: 200px;
-    width: 200px;
     float: left;
     margin: 0px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 6px solid cadetblue;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: darkslategray;
+    text-align: center;
+    color: cadetblue;
 }
