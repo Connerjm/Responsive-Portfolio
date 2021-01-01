@@ -40,6 +40,13 @@ img {
     height: 200px;
 }
 
+/* Adding some padding to our form. */
+form
+{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* Formatting my footer. */
 footer {
     position: fixed;
@@ -75,4 +82,11 @@ footer {
 /* I needed to add this to make the nav items stay to the right, not completely sure why. */
 .navbar-collapse {
     flex-grow: 0;
+}
+
+/* Added a button class for my chosen color scheme. */
+.btn-custom {
+    color: white;
+    background-color: cadetblue;
+    border-color: cadetblue;
 }
