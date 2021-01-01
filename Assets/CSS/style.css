@@ -4,10 +4,55 @@
     border: 1px dashed red;
 } */
 
+/* Adding a clear fix class to make sure the section doesn't get too small for the image. */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Setting my geometric minimalist background. */
 body
 {
     background-image: url("../Images/background.png");
+}
+
+/* Setting rules for my main content section. */
+section {
+    margin-top: 48px;
+    border: 1px solid cadetblue;
+    border-radius: 1%;
+    width: 600px;
+    padding: 16px;
+    background-color: white;
+}
+
+/* Formatting my section header. */
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: cadetblue;
+}
+
+/* Formatting my picture in "about me". */
+img {
+    float: left;
+    margin: 0px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Formatting my footer. */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 6px solid cadetblue;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: darkslategray;
+    text-align: center;
+    color: cadetblue;
 }
 
 /* Over writting Bootstrap rules for my name in the nav bar. */
@@ -21,23 +66,6 @@ body
     color: white;
 }
 
-/* I needed to add this to make the nav items stay to the right, not completely sure why. */
-.navbar-collapse
-{
-    flex-grow: 0;
-}
-
-/* Setting rules for my main content section. */
-section
-{
-    margin-top: 48px;
-    border: 1px solid cadetblue;
-    border-radius: 1%;
-    width: 600px;
-    padding: 16px;
-    background-color: white;
-}
-
 /* Altering the container class from Bootstrap to give me the responsiveness without centering the section. */
 .container
 {
@@ -45,41 +73,7 @@ section
     margin-left: 16px;
 }
 
-/* Adding a clear fix class to make sure the section doesn't get too small for the image. */
-.clearfix::after
-{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Formatting my section header. */
-h1
-{
-    font-family: 'Roboto Slab', serif;
-    color: cadetblue;
-}
-
-/* Formatting my picture in "about me". */
-img
-{
-    float: left;
-    margin: 0px 20px 0px 0px;
-    width: 200px;
-    height: 200px;
-}
-
-/* Formatting my footer. */
-footer
-{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border-top: 6px solid cadetblue;
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: darkslategray;
-    text-align: center;
-    color: cadetblue;
+/* I needed to add this to make the nav items stay to the right, not completely sure why. */
+.navbar-collapse {
+    flex-grow: 0;
 }
