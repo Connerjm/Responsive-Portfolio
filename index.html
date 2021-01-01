@@ -16,22 +16,29 @@
 
 <body>
     <!-- Building the navbar. -->
-    <nav class="navbar navbar-expand navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
         <!-- Name with link to "home page". -->
         <a class="navbar-brand h1" id="nameIcon" href="index.html">Conner Martin</a>
+        <!-- Replace the nav items with a button at a specified breakpoint. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- Target div to collapse and replace with the navbar toggler icon. -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Navbar options with links to other pages. -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="HTML/contact.html" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a href="HTML/portfolio.html" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-                <a href="index.html" class="nav-link">About</a>
-            </li>
-        </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="HTML/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="HTML/portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">About</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Building my main content section. -->

@@ -21,6 +21,12 @@ body
     color: white;
 }
 
+/* I needed to add this to make the nav items stay to the right, not completely sure why. */
+.navbar-collapse
+{
+    flex-grow: 0;
+}
+
 /* Setting rules for my main content section. */
 section
 {
