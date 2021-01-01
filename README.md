@@ -10,7 +10,7 @@ All html files
 - Has a background image.
 - Has a single content area with varying elements inside.
 - Needs a footer at the bottom that has a faux copyright.
-- Make sure to use semantic tags include breakpoints to change formatting based on screen size.
+- Make sure to use semantic tags which include breakpoints to change formatting based on screen size.
 
 index.html
 
@@ -25,13 +25,14 @@ portfolio.html
 
 contact.html
 
-- Instead of images, we have three text boxes and a submit button.
+- Instead of images, we have two text boxes, a text area, and a submit button.
 - Should be in a form tag.
 
 Issues
 
-- The navbar now collapses at the small breakpoint, but the button doesn't do anything, certainly because I don't have any JS.
+- The navbar now collapses at the small breakpoint, but the button doesn't do anything. Almost certainly because I don't have any JS.
 
 TODO
 
-- Add aria elements?
+- Add aria elements.
+- When fully done, take pictures and put them in here.

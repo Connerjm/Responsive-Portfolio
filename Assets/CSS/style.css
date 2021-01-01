@@ -61,17 +61,6 @@ footer {
     color: cadetblue;
 }
 
-/* Over writting Bootstrap rules for my name in the nav bar. */
-#nameIcon
-{
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5%;
-    background-color: cadetblue;
-    font-family: 'Roboto Slab', serif;
-    color: white;
-}
-
 /* Altering the container class from Bootstrap to give me the responsiveness without centering the section. */
 .container
 {
@@ -89,4 +78,14 @@ footer {
     color: white;
     background-color: cadetblue;
     border-color: cadetblue;
+}
+
+/* Over writting Bootstrap rules for my name in the nav bar. */
+#nameIcon {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    background-color: cadetblue;
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
