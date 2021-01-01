@@ -2,19 +2,20 @@
 
 My task is to use the Bootstrap CSS Framework to create a mobile responsive portfolio. I will need to create three html files and utilize bootstrap to make a simple, yet full web application.
 
-Brain storming notes for myself.
+Notes:
 
 All html files
 
 - Needs a nav bar with my name on the left and 3 options for my links on the right. The link for the current page is bold.
 - Has a background image.
-- Needs a footer at the bottom that seems to just be color in the example. Maybe I can put contact info and a fake copyright.
+- Has a single content area with varying elements inside.
+- Needs a footer at the bottom that has a faux copyright.
 - Make sure to use semantic tags include breakpoints to change formatting based on screen size.
 
 index.html
 
 - This is the main homescreen/about me page.
-- Has a container that has two rows. One for the title of the page, and one for the main content.
+- Single content area with a header and then image and text.
 - Has a picture with text wrapping it.
 
 portfolio.html
@@ -29,4 +30,8 @@ contact.html
 
 Issues
 
-- Tried to make it so the navbar items would collapse into a button when hitting a breakpoint, but the button wouldn't open the options (probably because of no javascript?) and would move the options to the left rather then end justified.
+- The navbar now collapses at the small breakpoint, but the button doesn't do anything, certainly because I don't have any JS.
+
+TODO
+
+- Add aria elements?
