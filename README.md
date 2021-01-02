@@ -11,6 +11,22 @@
 
 My task is to use the Bootstrap CSS Framework to create a mobile responsive portfolio. I will need to create three html files and utilize bootstrap to make a simple, yet full web application. It will consist of three pages, all of which will have identical navbars which link to the other pages, content layout, and footer. The three pages will have slightly different content, from a paragraph with image, and array of images, and a form. I will also need to ensure that my elements have custom colors, background, and other styles.
 
+The minimum requirements for this project are as follows.
+
+- [x] Functional, deployed application
+- [x] GitHub repository with README describing the project
+- [x] Navbar must be consistent on each page.
+- [x] Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+- [x] All links must work.
+- [x] Must use semantic html.
+- [x] Each page must have valid and correct HTML. (use a validation service)
+- [ ] Must contain your personalized information. (bio, name, images, links to social media, etc.)
+- [ ] Must properly utilize Bootstrap components and grid system.
+
+The bonus objective is as follows.
+
+- [ ] Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site.
+
 ## Technologies
 
 Project is created with:
