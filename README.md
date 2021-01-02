@@ -1,6 +1,28 @@
 # Responsive-Portfolio
 
-My task is to use the Bootstrap CSS Framework to create a mobile responsive portfolio. I will need to create three html files and utilize bootstrap to make a simple, yet full web application.
+## Table of contents
+
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Launch](#launch)
+- [Notes](#notes)
+
+## Introduction
+
+My task is to use the Bootstrap CSS Framework to create a mobile responsive portfolio. I will need to create three html files and utilize bootstrap to make a simple, yet full web application. It will consist of three pages, all of which will have identical navbars which link to the other pages, content layout, and footer. The three pages will have slightly different content, from a paragraph with image, and array of images, and a form. I will also need to ensure that my elements have custom colors, background, and other styles.
+
+## Technologies
+
+Project is created with:
+
+- HTML
+- CSS
+- Bootstrap 4.5.3
+
+## Launch
+
+- [GitHub Repository](https://github.com/Connerjm/Responsive-Portfolio)
+- [Deployment](https://connerjm.github.io/Responsive-Portfolio/)
 
 ## Notes
 
@@ -32,8 +54,8 @@ My task is to use the Bootstrap CSS Framework to create a mobile responsive port
 
 - The navbar now collapses at the small breakpoint, but the button doesn't do anything. Almost certainly because I don't have any JS.
 
-## TODO
+## To Do
 
-- Add aria elements.
-- When fully done, take pictures and put them in here.
-- Attempted to add a favicon. Didn't work but also absolutely not required and seems to be a bit above my current skill level.
+- [ ] Add aria elements.
+- [ ] When fully done, take pictures and put them in here.
+- [ ] ~~Attempted to add a favicon. Didn't work but also absolutely not required and seems to be a bit above my current skill level.~~
