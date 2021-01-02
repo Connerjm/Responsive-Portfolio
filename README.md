@@ -26,7 +26,8 @@ The minimum requirements for this project are as follows.
 
 The bonus objective is as follows.
 
-- [x] [ ] Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site.
+- [x] Using Bootstrap, make a sticky footer.
+- [ ] Using Bootstrap, use sub-rows and sub-columns on your portfolio site.
 
 ## Technologies
 
@@ -79,6 +80,6 @@ Project is created with:
 
 ## To Do
 
-- [ ] Add aria elements.
+- [ ] Add aria elements and other accessiblity features.
 - [ ] When fully done, take pictures and put them in here.
 - [ ] ~~Add a favicon~~
