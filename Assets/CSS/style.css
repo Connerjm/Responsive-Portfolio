@@ -5,7 +5,8 @@
 } */
 
 /* Adding a clear fix class to make sure the section doesn't get too small for the image. */
-.clearfix::after {
+.clearfix::after
+{
     content: "";
     clear: both;
     display: table;
@@ -19,7 +20,8 @@ body
 }
 
 /* Setting rules for my main content section. */
-section {
+section
+{
     margin-top: 48px;
     border: 1px solid cadetblue;
     border-radius: 1%;
@@ -28,13 +30,15 @@ section {
 }
 
 /* Formatting my section header. */
-h1 {
+h1
+{
     font-family: 'Roboto Slab', serif;
     color: cadetblue;
 }
 
 /* Formatting my picture in "about me". */
-img {
+img
+{
     float: left;
     margin: 0px 20px 20px 0px;
     width: 200px;
@@ -49,7 +53,8 @@ form
 }
 
 /* Formatting my footer. */
-footer {
+footer
+{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -70,23 +75,38 @@ footer {
 }
 
 /* I needed to add this to make the nav items stay to the right, not completely sure why. */
-.navbar-collapse {
+.navbar-collapse
+{
     flex-grow: 0;
 }
 
 /* Added a button class for my chosen color scheme. */
-.btn-custom {
+.btn-custom
+{
     color: white;
     background-color: cadetblue;
     border-color: cadetblue;
 }
 
 /* Over writting Bootstrap rules for my name in the nav bar. */
-#nameIcon {
+#nameIcon
+{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5%;
     background-color: cadetblue;
     font-family: 'Roboto Slab', serif;
     color: white;
+}
+
+/* Some custom colors for the links in my socials area. */
+#socials > li > a:link
+{
+    color: cadetblue;
+}
+
+/* Some custom colors for the links that are visited in my socials area. */
+#socials>li>a:visited
+{
+    color: rgb(54, 92, 94);
 }
