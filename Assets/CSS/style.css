@@ -15,6 +15,7 @@
 body
 {
     background-image: url("../Images/background.png");
+    padding-bottom: 60px;
 }
 
 /* Setting rules for my main content section. */
