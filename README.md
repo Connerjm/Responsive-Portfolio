@@ -69,9 +69,10 @@ Project is created with:
 ### Issues
 
 - The navbar now collapses at the small breakpoint, but the button doesn't do anything. Almost certainly because I don't have any JS.
+- Attempted to add a favicon. Didn't work but also absolutely not required and seems to be a bit above my current skill level.
 
 ## To Do
 
 - [ ] Add aria elements.
 - [ ] When fully done, take pictures and put them in here.
-- [ ] ~~Attempted to add a favicon. Didn't work but also absolutely not required and seems to be a bit above my current skill level.~~
+- [ ] ~~Add a favicon~~
