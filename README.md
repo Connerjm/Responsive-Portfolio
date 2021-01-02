@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Launch](#launch)
+- [Images](#images)
 - [Notes](#notes)
 
 ## Introduction
@@ -21,7 +22,7 @@ The minimum requirements for this project are as follows.
 - [x] Must use semantic html.
 - [x] Each page must have valid and correct HTML. (use a validation service)
 - [x] Must contain your personalized information. (bio, name, images, links to social media, etc.)
-- [ ] Must properly utilize Bootstrap components and grid system.
+- [x] Must properly utilize Bootstrap components and grid system.
 
 The bonus objective is as follows.
 
@@ -39,6 +40,10 @@ Project is created with:
 
 - [GitHub Repository](https://github.com/Connerjm/Responsive-Portfolio)
 - [Deployment](https://connerjm.github.io/Responsive-Portfolio/)
+
+## Images
+
+- TODO
 
 ## Notes
 

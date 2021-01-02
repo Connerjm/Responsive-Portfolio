@@ -49,7 +49,16 @@ img
 form
 {
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 15%;
+}
+
+/* Adds padding to the right of the form untill the xs breakpoint, then it mirrors the left padding. */
+@media (max-width: 576px)
+{
+    form
+    {
+        padding-right: 16px;
+    }
 }
 
 /* Formatting my footer. */
