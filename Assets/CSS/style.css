@@ -130,4 +130,5 @@ footer
 #shhh:hover
 {
     text-decoration: none;
+    cursor: help;
 }
