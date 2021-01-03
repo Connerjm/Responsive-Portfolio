@@ -119,3 +119,15 @@ footer
 {
     color: rgb(54, 92, 94);
 }
+
+/* Shhh, It's a secret. */
+#shhh
+{
+    color: black;
+}
+
+/* Nice and discrete. */
+#shhh:hover
+{
+    text-decoration: none;
+}

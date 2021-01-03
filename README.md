@@ -35,6 +35,8 @@ The bonus objective is as follows.
 - [x] Using Bootstrap, make a sticky footer.
 - [ ] Using Bootstrap, use sub-rows and sub-columns on your portfolio site.
 
+By the way, I hide a little easter egg on my "about me" page. See if you can find it without looking at my code :wink:
+
 ## Technologies
 
 Project is created with:
