@@ -7,6 +7,12 @@
 - [Launch](#launch)
 - [Images](#images)
 - [Notes](#notes)
+  - [All HTML Files](#all-html-files)
+  - [Index](#index.html)
+  - [Portfolio](#portfolio.html)
+  - [Contact](#contact.html)
+  - [Issues](#issues)
+- [To Do](#to-do)
 
 ## Introduction
 
@@ -44,7 +50,7 @@ Project is created with:
 
 ## Images
 
-- TODO
+![Picture of my website!](Assets/Images/homesnapshot.png)
 
 ## Notes
 
