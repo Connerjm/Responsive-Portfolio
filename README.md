@@ -87,6 +87,6 @@ Project is created with:
 
 ## To Do
 
-- [ ] Add aria elements and other accessiblity features.
-- [ ] When fully done, take pictures and put them in here.
+- [x] Add aria elements and other accessiblity features.
+- [x] When fully done, take pictures and put them in here.
 - [ ] ~~Add a favicon~~
