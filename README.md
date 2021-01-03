@@ -71,10 +71,11 @@ Project is created with:
 
 - Instead of images, we have two text boxes, a text area, and a submit button.
 - Should be in a form tag.
+- I also added a little JS just to make an alert.
 
 ### Issues
 
-- The navbar now collapses at the small breakpoint, but the button doesn't do anything. Almost certainly because I don't have any JS.
+- ~~The navbar now collapses at the small breakpoint, but the button doesn't do anything. Almost certainly because I don't have any JS.~~ Added the Bootstrap JS links.
 - Attempted to add a favicon. Didn't work but also absolutely not required and seems to be a bit above my current skill level.
 - Git Bash gives me this warning "warning: CRLF will be replaced by LF in Assets/CSS/style.css." when I git add any file. I don't know what this means.
 
